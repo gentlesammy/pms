@@ -1,0 +1,148 @@
+/********************************************************
+ DESIGNED BY: Psalm sam
+ email: psalmsam84@gmail.com
+ phone: 08060913903
+ date: june 2018
+ website: www.psalmsam.naija.website
+License: GPL
+lECTURER:Dr. Mrs Adetunji
+*********************************************************/
+/*
+breakpoints
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+
+*/
+
+/*
+css styling variables for color
+
+var(--pry);
+*/
+
+
+:root{
+  --pry:#080e3e;
+  --sec:rgb(236, 226, 226);
+  --accent:#ef7301;
+}
+body{
+  margin:0;
+  padding:0;
+  color: var(--pry);
+  background-color: #fff;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+welcomej
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+*/
+
+.welcomej{
+  min-height: 50vh;
+  background:var(--pry);
+}
+.welcomej .jumbotron{
+  background:var(--pry);
+}
+
+.welcomej .jumbotron h1{
+  color:var(--sec);
+  font-weight: 900;
+  text-shadow: 0px 1px 5px var(--accent);
+}
+
+.welcomej .jumbotron p{
+  color:var(--accent);
+}
+
+.welcomej .jumbotron .detail{
+  color:var(--sec);
+  font-style: italic;
+}
+
+/*
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+welcomef
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+*/
+
+.welcomef{
+  min-height: 50vh;
+  background:#fff;
+  margin-bottom: 10%;
+  padding-top: 2%;
+}
+
+.welcomef form{
+
+  box-shadow: -2px 2px 2px 2px lightgray;
+}
+
+.welcomef form label{
+  color: var(--pry);
+}
+
+.welcomef form input, .welcomef form select, .welcomef form textarea{
+  border-color: var(--pry);
+}
+
+.welcomef form .btn{
+  border:none !important;
+}
+
+
+
+
+/*
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+  bottom section
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+*/
+
+.bottom{
+  height:20vh;
+  padding-top:5vh;
+  background: var(--pry);
+  color:#fff;
+  text-align: center;
+}
+
+
+/*
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+  login user styling
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+*/
+
+
+.topheader{
+  background:url('../images/back3.jpeg');
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom:100px;
+
+
+}
+
+
+
+
+ /*
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+   products page styling ends here
+ &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+*/
